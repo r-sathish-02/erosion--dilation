@@ -38,7 +38,7 @@ import matplotlib.pyplot as plt
 ``` Python
 img = np.zeros((100,400),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img ,'Lifestyle',(60,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img ,'SATHISH',(60,70),font,2,(255),5,cv2.LINE_AA)
 plt.imshow(img)
 plt.axis('off')
 ```
@@ -67,17 +67,17 @@ plt.axis('off')
 ### Output:
 
 #### Display the input Image
-![image](https://github.com/JoyceBeulah/erosion--dilation/assets/118343698/ae1f4652-8969-479e-a8aa-a8ad3e782858)
+![dip_ex-9-1](https://github.com/r-sathish-02/erosion--dilation/assets/118787261/5fc8b015-f7a4-4ecc-a1e7-fc9c140fb46c)
 
 
 #### Display the Eroded Image
+![dip-exp-9-2](https://github.com/r-sathish-02/erosion--dilation/assets/118787261/89bfdd90-d990-4132-bbf6-33590f473e2d)
 
-![image](https://github.com/JoyceBeulah/erosion--dilation/assets/118343698/027a641b-bce2-4bef-9b10-0a60a1152116)
 
 
 #### Display the Dilated Image
+![dip-ex-9-3](https://github.com/r-sathish-02/erosion--dilation/assets/118787261/d773853c-4508-436b-94f1-0d0b99d62ed6)
 
-![image](https://github.com/JoyceBeulah/erosion--dilation/assets/118343698/776a6718-a655-4167-b107-e43c0364b99c)
 
 
 ## Result
